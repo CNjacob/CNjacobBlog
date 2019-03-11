@@ -1,19 +1,17 @@
 ---
 toc: true
-title:      "Python学习-基础语法1"
-date:       2019-02-25
-author:     "Jacob"
-header-img: "img/post-bg-unix-linux.jpg"
-tags:
-    - Python
+title: "Python学习-基础语法1"
+date: 2019-02-25
+tags: Python
+author: "Jacob"
 ---
 
 > 此文档未全部完成，将随时更新。
 
-<!--more-->
-
 ## 1. 数据类型
 > Python常用的几种数据类型有数字、字符串、列表、字典和元组，其实Python内部的数据类型很多，但是我们常用的不多，太多了也记不了，掌握了常用的这几个数据类型即可。
+
+<!--more-->
 
 #### 1.1 可变类型与不可变类型
 ##### 1.1.1 不可变类型(数字、字符串、元组、不可变集合)
