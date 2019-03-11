@@ -1,6 +1,6 @@
 ---
-title: Mac OS X 设置所有来源
-date: 2019-03-11 10:25:41
+title: 2019-03-11-MacOS_Setting
+date: 2019-03-11 10:41:14
 tags: Mac OS
 ---
 
