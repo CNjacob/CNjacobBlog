@@ -1,7 +1,7 @@
 ---
 toc: true
-title: "Python学习-基础语法1"
-date: 2019-02-25
+title: Python学习-基础语法1
+date: 2019-03-11 13:44:53
 tags: Python
 author: "Jacob"
 ---

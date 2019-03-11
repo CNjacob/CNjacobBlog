@@ -1,7 +1,7 @@
 ---
 title: 设置Mac OS允许所有来源
 date: 2019-03-11 10:41:14
-tags: Mac OS
+tags: MacOS
 author: "Jacob"
 ---
 
