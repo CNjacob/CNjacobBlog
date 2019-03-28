@@ -6,8 +6,8 @@ author: "CNjacob"
 ---
 
 ## 1.CocoaPods简介
-CocoaPods是负责管理iOS或MacOS项目的第三方框架。
-CocoaPods的项目源码在Github上管理。项目从2011年8月12日开始,CocoaPods的出现使得我们可以节省设置和更新第三方开源库的时间。
+> CocoaPods是负责管理iOS或MacOS项目的第三方框架。
+> CocoaPods的项目源码在Github上管理。项目从2011年8月12日开始,CocoaPods的出现使得我们可以节省设置和更新第三方开源库的时间。
 
 <!--more-->
 
