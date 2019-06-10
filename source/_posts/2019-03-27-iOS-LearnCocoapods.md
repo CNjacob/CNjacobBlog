@@ -40,7 +40,7 @@ pod --version
 
 ## 2.CocoaPods使用
 1.Xcode 创建 CocoapodsTest项目
-![](/createXcodeProject.png)
+![](createXcodeProject.png)
 
 2.通过终端命令cd到项目根目录下，使用 pod init 命令初始化pod项目
 ```shell
@@ -57,15 +57,16 @@ vim Podfile
 ```shell
 pod 'AFNetworking', '~> 3.2.1'
 ```
-![](/vimPodfile.png)
+![](vimPodfile.png)
 
 5.执行 pod install 命令加载 AFNetworking
 ```shell
 pod install
 ```
-![](/podInstall.png)
+![](podInstall.png)
 执行完成后，会增加 CocoapodsTest.xcworkspace 、 Podfile.lock 文件和 Pods 文件夹，其中加载的第三方库在 Pods 文件夹中
-![](/openProject.png)
+![](openProject.png)
 
 6.通过 CocoapodsTest.xcworkspace 打开项目
-![](/showProject.png)
+![](showProject.png)
+

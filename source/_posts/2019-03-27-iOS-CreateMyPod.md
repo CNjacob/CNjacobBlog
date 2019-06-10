@@ -20,7 +20,7 @@ author: "CNjacob"
 pod --version
 ```
 > 我的CocoaPods是 1.6.0 版本
-![](/podVersion.png)
+![](podVersion.png)
 
 > 如果版本低，需要升级
 ```shell
@@ -43,7 +43,7 @@ pod trunk register 15375187600@163.com 'CNjacob' --description='macbook pro' --v
 pod trunk me
 ```
 > 我这里是已经注册过了的，其中包含你的name、email、since、Pods、sessions，Pods为你往CocoaPods提交的所有的Pod
-![](/trunkMe.png)
+![](trunkMe.png)
 
 ##### 1.1.4 给项目添加其他维护者
 > JacobBluetoothKit 为Pod项目名称
@@ -61,10 +61,10 @@ pod lib create CNjacobBleManagerKit
 ```
 
 >进入引导过程
-![](/libCreate.png)
+![](libCreate.png)
 
 > 整个引导过程有6步选择，如下图:
-![](/createLibGuide.png)
+![](createLibGuide.png)
 
 
 > 1.选择系统版本，iOS / macOS
@@ -104,11 +104,11 @@ What is your class prefix?
 ```
 
 > 创建完成后会自动打开Xcode工程
-![](/createSuccess.png)
+![](createSuccess.png)
 
 ##### 1.2.2 .podspec 文件配置
 > 可以通过 CNjacobBleManagerKit.podspec 文件来配置工程
-![](/settingPodspec.png)
+![](settingPodspec.png)
 
 > 讲一下各项配置的含义
 ```
@@ -138,10 +138,10 @@ s.dependency            依赖库，不能依赖未发布的库，可以写多�
 
 ##### 1.2.3 代码提交
 > 完成.podspec 文件配置后，需将代码提交至GitHub，并打上tag，tag必须与.podspec 文件配置中的版本号一致
-![](/commitAndTag.png)
+![](commitAndTag.png)
 
 > 代码提交完成
-![](/commitSuccess.png)
+![](commitSuccess.png)
 
 ##### 1.2.4 部署库
 > 1.检查Podspec是否正确
@@ -151,7 +151,7 @@ pod spec lint
 ```
 
 > pod lib lint 和 pod spec lint。它们之间的区别在于pod lib lint不访问网络，而是pod spec lint检查外部仓库和相关标签
-![](/podLint.png)
+![](podLint.png)
 
 > 2.发布
 ```shell
@@ -159,7 +159,7 @@ pod trunk push CNjacobBleManagerKit.podspec
 ```
 
 > 如下所示，发布成功
-![](/trunkPushSuccess.png)
+![](trunkPushSuccess.png)
 
 > 验证仓库
 ```shell
@@ -167,20 +167,20 @@ pod search CNjacobBleManagerKit
 ```
 
 > 可能会出错，如下所示
-![](/searchFailed.png)
+![](searchFailed.png)
 
 > 解决办法，删除缓存，重新 pod setup ，需要等待一段时间
-![](/deleteCacheAndSetup.png)
+![](deleteCacheAndSetup.png)
 
 > 再次验证仓库，可以看到已经发布成功
-![](/searchSuccess.png)
+![](searchSuccess.png)
 
 
 ## 2. 如何创建私有库
 
 ### 2.1 创建私有仓库Specs
 > 如果想利用pod安装私有库，那么就得创建和cocoapods官方一样的结构，我们想来看看cocoapods官方的结构，cocoapods所有公共库文件都存放在CocoaPods spec远端文件地址，如果在电脑上安装了cocoapods它会从这个地址clone一份到本地，每次pod update 都会更新这个本地仓库，首先先创建一个私有的库
-![](/createRepository.png)
+![](createRepository.png)
 
 > 在终端执行
 ```shell
@@ -192,11 +192,11 @@ pod repo add CNjacobSpecs https://github.com/CNjacob/CNjacobSpecs.git
 open ~/.cocoapods/repos
 ```
 > 会开看到在repos中创建了一个私有的仓库 CNjacobSpecs ， master 是cocoapods官方的
-![](/repos.png)
+![](repos.png)
 
 ### 2.2 向私有的 spec repo 里添加 podspec文件
 > 1.在1.2中创建了属于自己的Pod，接下来在GitHub上将其修改为私有库
-![](/privatePod.png)
+![](privatePod.png)
 
 > 2.通过终端命令 cd 到Pod项目的根目录下，向 CNjacobSpecs 里添加 CNjacobBleManagerKit.podspec 文件
 ```shell
@@ -204,4 +204,6 @@ cd /Users/jacob/Desktop/Cocoapods/CNjacobBleManagerKit
 pod repo push CNjacobSpecs CNjacobBleManagerKit.podspec
 ```
 > 3.命令执行结束，可看到 repos/CNjacobSpecs 目录下增加了一个 CNjacobBleManagerKit 文件夹，表示添加成功了
-![](/pushToCNjacobSpecsSuccess.png)
+![](pushToCNjacobSpecsSuccess.png)
+
+

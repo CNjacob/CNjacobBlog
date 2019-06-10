@@ -5,7 +5,7 @@ tags: Tool
 author: "CNjacob"
 ---
 
-![](/example.jpg)
+![](example.jpg)
 
 <!--more-->
 
@@ -18,12 +18,13 @@ post_asset_folder: true
 
 ## 2.安装插件
 ```shell
-npm install hexo-asset-image --save
+npm install hexo-asset-image-fixed --save
 ```
 
 ## 3.引用图片
 在xxxx.md中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片
 
 ```
-![](/图片名.jpg)
+![](图片名.jpg)
 ```
+
