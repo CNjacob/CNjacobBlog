@@ -1,7 +1,7 @@
 ---
 title: Hexo图片显示
 date: 2019-03-27 16:56:58
-tags: Tool
+tags: Notes
 author: "CNjacob"
 ---
 

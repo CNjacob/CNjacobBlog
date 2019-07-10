@@ -1,7 +1,7 @@
 ---
 title: Hexo简单使用
 date: 2019-03-11 10:43:38
-tags: Tool
+tags: Notes
 author: "Jacob"
 ---
 
