@@ -9,8 +9,7 @@ tags: Notes
 
 官网下载[tomcat][2]
 
-
-[1]: https://cnjacob.com/2019/03/11/2019-07-10-Notes-CentOS安装JDK
+[1]: https://cnjacob.com/2019/07/10/2019-07-10-Notes-CentOS安装JDK/
 [2]: https://tomcat.apache.org/download-90.cgi
 
 <!--more-->
