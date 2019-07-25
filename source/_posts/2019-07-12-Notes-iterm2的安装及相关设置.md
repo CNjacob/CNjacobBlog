@@ -1,5 +1,5 @@
 ---
-title: 2019-07-12-Notes-iterm2的安装及相关设置
+title: iterm2的安装及相关设置
 date: 2019-07-12 18:50:11
 tags: Notes
 ---
