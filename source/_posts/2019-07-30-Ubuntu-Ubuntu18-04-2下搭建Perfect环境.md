@@ -15,7 +15,7 @@ tags: Ubuntu
 > 若需要使用Mysql，可参照前面的文章[Ubuntu18.04.2下安装Mysql5.7][2]，注意⚠️目前Perfect必须Mysql5.7
 
 [1]: https://cnjacob.com/2019/07/30/2019-07-30-Ubuntu-Ubuntu18-04-2下的Swift环境搭建
-[2]: https://cnjacob.com/2019/07/30/2019-07-30-Ubuntu-Ubuntu18.04.2下安装Mysql5.7
+[2]: https://cnjacob.com/2019/07/30/2019-07-30-Ubuntu-Ubuntu18-04-2下安装Mysql5-7
 
 ## 2.安装依赖库
 
