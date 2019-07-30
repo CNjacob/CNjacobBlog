@@ -10,11 +10,11 @@ tags: Ubuntu
 
 ## 1.前置条件
 
-1. Swift环境搭建，参照前面的文章[Ubuntu18.04.2下的Swift环境搭建][1]
+> Swift环境搭建，参照前面的文章[Ubuntu18.04.2下的Swift环境搭建][1]
 
-2. 若需要使用Mysql，可参照前面的文章[Ubuntu18.04.2下安装Mysql5.7][2]，注意⚠️目前Perfect必须Mysql5.7
+> 若需要使用Mysql，可参照前面的文章[Ubuntu18.04.2下安装Mysql5.7][2]，注意⚠️目前Perfect必须Mysql5.7
 
-[1]: https://cnjacob.com/2019/07/30/2019-07-30-Ubuntu-Unbuntu18-04下的Swift环境搭建
+[1]: https://cnjacob.com/2019/07/30/2019-07-30-Ubuntu-Ubuntu18-04-2下的Swift环境搭建
 [2]: https://cnjacob.com/2019/07/30/2019-07-30-Ubuntu-Ubuntu18.04.2下安装Mysql5.7
 
 ## 2.安装依赖库
