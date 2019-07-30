@@ -1,10 +1,10 @@
 ---
-title: Unbuntu18.04下的Swift环境搭建
+title: Ubuntu18.04.2下的Swift环境搭建
 date: 2019-07-30 10:17:30
-tags: Swift
+tags: Ubuntu
 ---
 
-> 搭建环境 Unbuntu18.04 + swift5.0.2
+> 搭建环境 Ubuntu18.04.2 + swift5.0.2
 
 <!--more-->
 
@@ -12,7 +12,7 @@ tags: Swift
 
 ```shell
 apt-get update
-sudo apt-get install clang libicu-dev
+apt-get install clang libicu-dev
 ```
 
 ## 2.下载对应ubuntu的版本和对应的数字签名
@@ -55,7 +55,7 @@ tar xzf swift-5.0.2-RELEASE-ubuntu18.04.tar.gz
 ## 5.环境变量配置
 
 ```shell
-sudo vi /etc/profile
+vi /etc/profile
 ```
 
 > i进入编辑模式后 在最后一行输入
